@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Nunito+Sans:wght@300;600;800&display=swap');
+
+html, body { /*Importante*/
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+* { /*Importante*/
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 98.3%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.29);
+}
+
+.change{
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.title{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin-top: 25px;
+}
+
+.searchCountry{
+    width: 420px;
+    height: 35px;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-left: 55px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    
+}
+
+.select{
+    margin-right: 55px;
+    width: 180px;
+    height: 50px;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: hsl(0, 0%, 100%);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 1px 1px 0.5px 0px rgba(50, 50, 50, 0.29);
+}
+
+.select option{
+    width: 200px;
+    padding: 1rem;
+}
+
+.country{
+    display: grid;
+    grid-template-columns: repeat(4, 470px);
+    padding: 1rem;
+}
+
+.country div{
+    height: 350px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.29);
+    box-shadow: 7px 7px 10px 0px rgba(50, 50, 50, 0.29);
+}
+
+.country div img{
+    width: 300px;
+    height: 190px;
+    margin-bottom: 10px;
+}
+
+.country div h2{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.country div p{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+
+/* JS */
+.active {
+    background-color: hsl(209, 23%, 22%);
+    color: hsl(0, 0%, 98%);
+}
+
+.active2{
+    background-color: hsl(207, 26%, 17%);
+}
